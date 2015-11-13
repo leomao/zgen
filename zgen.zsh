@@ -191,7 +191,6 @@ zgen-update() {
       && git pull \
       && git submodule update --recursive)
   done
-  zgen-reset
 }
 
 -zgen-path-contains() {
